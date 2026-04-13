@@ -51,8 +51,6 @@ int main(){
         else if(menu == 2){
             int requestAmount;
             int processedAmount;
-            int requestHash;
-            int processedHash;
 
             printf("\nhow much will you deposit? > ");
             scanf("%d", &requestAmount);
@@ -63,7 +61,7 @@ int main(){
 
             // 추후 암호화나 해시를 이용해 전달되고, 
             // 종착지에서 검증하는 역할
-            if(requestHash == processedHash){
+            if(requestAmount == processedAmount){
                 balance += processedAmount;
                 printf("deposit completed.\n");
                 printf("requested amount : %d won\n", requestAmount);
