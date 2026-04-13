@@ -23,5 +23,5 @@ gcc Subject02.c -o Subject02
 ```
 
 ## 정리 문서
-- [notes.md]()
-- [1주 차 위키]()
+- [notes.md](https://github.com/will0wkr/SABLE/blob/main/1%EC%A3%BC%EC%B0%A8/notes.md)
+- [1주 차 위키](https://github.com/will0wkr/SABLE/wiki/1%EC%A3%BC-%EC%B0%A8-%EA%B3%BC%EC%A0%9C)
