@@ -61,9 +61,8 @@ int main(){
             // 요청한 금액과 실제 처리 금액이 같은지 확인
             processedAmount = requestAmount;
 
-            requestHash = requestAmount * 13 + 7;
-            processedHash = processedAmount * 13 + 7;
-
+            // 추후 암호화나 해시를 이용해 전달되고, 
+            // 종착지에서 검증하는 역할
             if(requestHash == processedHash){
                 balance += processedAmount;
                 printf("deposit completed.\n");
