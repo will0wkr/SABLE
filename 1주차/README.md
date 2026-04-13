@@ -13,15 +13,6 @@
 - Subject01.c : 보안 속성을 간단한 은행 시나리오로 표현
 - Subject02.c : 평문 전송과 암호화 전송의 차이를 단순 예제로 표현
 
-## 실행 방법
-```bash
-gcc Subject01.c -o Subject01
-./Subject01
-
-gcc Subject02.c -o Subject02
-./Subject02
-```
-
 ## 정리 문서
 - [notes.md](https://github.com/will0wkr/SABLE/blob/main/1%EC%A3%BC%EC%B0%A8/notes.md)
 - [1주 차 위키](https://github.com/will0wkr/SABLE/wiki/1%EC%A3%BC-%EC%B0%A8-%EA%B3%BC%EC%A0%9C)
