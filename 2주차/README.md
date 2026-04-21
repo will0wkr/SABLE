@@ -12,5 +12,5 @@
 - `Subject03.c` : 두 암호화와 키의 활용 예
 
 ## 정리 문서
-- [notes.md](https://github.com/will0wkr/SABLE/edit/main/2%EC%A3%BC%EC%B0%A8/notes.md)
+- [notes.md](https://github.com/will0wkr/SABLE/blob/main/2%EC%A3%BC%EC%B0%A8/notes.md)
 - [2주 차 위키]()
