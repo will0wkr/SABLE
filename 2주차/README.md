@@ -13,4 +13,4 @@
 
 ## 정리 문서
 - [notes.md](https://github.com/will0wkr/SABLE/blob/main/2%EC%A3%BC%EC%B0%A8/notes.md)
-- [2주 차 위키]()
+- [2주 차 위키](https://github.com/will0wkr/SABLE/wiki/2%EC%A3%BC-%EC%B0%A8-%EA%B3%BC%EC%A0%9C)
