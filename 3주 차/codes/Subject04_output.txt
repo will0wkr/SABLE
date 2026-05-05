@@ -1,0 +1,100 @@
+[ Original Plaintext ]
+plain : sonagicrytotrack
+length : 16
+
+[ Basic Caesar Cipher ]
+real key : 7
+key space : 26
+ciphertext : zvuhnpjyfavayhjr
+
+[ Segmented Caesar Cipher ]
+real keys : [3, 10, 5, 1]
+key space : 26^4 = 456976
+ciphertext : vrqdqsmbdytysbdl
+
+[ Basic Caesar Brute Force ]
+key space : 26
+
+key =  0 -> zvuhnpjyfavayhjr
+key =  1 -> yutgmoixezuzxgiq
+key =  2 -> xtsflnhwdytywfhp
+key =  3 -> wsrekmgvcxsxvego
+key =  4 -> vrqdjlfubwrwudfn
+key =  5 -> uqpciketavqvtcem
+key =  6 -> tpobhjdszupusbdl
+key =  7 -> sonagicrytotrack
+key =  8 -> rnmzfhbqxsnsqzbj
+key =  9 -> qmlyegapwrmrpyai
+key = 10 -> plkxdfzovqlqoxzh
+key = 11 -> okjwceynupkpnwyg
+key = 12 -> njivbdxmtojomvxf
+key = 13 -> mihuacwlsninluwe
+key = 14 -> lhgtzbvkrmhmktvd
+key = 15 -> kgfsyaujqlgljsuc
+key = 16 -> jferxztipkfkirtb
+key = 17 -> iedqwyshojejhqsa
+key = 18 -> hdcpvxrgnidigprz
+key = 19 -> gcbouwqfmhchfoqy
+key = 20 -> fbantvpelgbgenpx
+key = 21 -> eazmsuodkfafdmow
+key = 22 -> dzylrtncjezeclnv
+key = 23 -> cyxkqsmbidydbkmu
+key = 24 -> bxwjprlahcxcajlt
+key = 25 -> awvioqkzgbwbziks
+
+[ Segmented Caesar Brute Force ]
+segment count : 4
+segment size  : 4 letters
+key space     : 26^4 = 456976
+
+try      1 : keys = [ 0,  0,  0,  0] -> vrqdqsmbdytysbdl
+try      2 : keys = [ 0,  0,  0,  1] -> vrqdqsmbdytyrack
+try      3 : keys = [ 0,  0,  0,  2] -> vrqdqsmbdytyqzbj
+try      4 : keys = [ 0,  0,  0,  3] -> vrqdqsmbdytypyai
+try      5 : keys = [ 0,  0,  0,  4] -> vrqdqsmbdytyoxzh
+try      6 : keys = [ 0,  0,  0,  5] -> vrqdqsmbdytynwyg
+try      7 : keys = [ 0,  0,  0,  6] -> vrqdqsmbdytymvxf
+try      8 : keys = [ 0,  0,  0,  7] -> vrqdqsmbdytyluwe
+try      9 : keys = [ 0,  0,  0,  8] -> vrqdqsmbdytyktvd
+try     10 : keys = [ 0,  0,  0,  9] -> vrqdqsmbdytyjsuc
+
+found!
+try   : 59620 / 456976
+keys  : [3, 10, 5, 1]
+plain : sonagicrytotrack
+
+[ Frequency Analysis ]
+ciphertext : zvuhnpjyfavayhjr
+
+a :  2  (12.50%)
+b :  0  ( 0.00%)
+c :  0  ( 0.00%)
+d :  0  ( 0.00%)
+e :  0  ( 0.00%)
+f :  1  ( 6.25%)
+g :  0  ( 0.00%)
+h :  2  (12.50%)
+i :  0  ( 0.00%)
+j :  2  (12.50%)
+k :  0  ( 0.00%)
+l :  0  ( 0.00%)
+m :  0  ( 0.00%)
+n :  1  ( 6.25%)
+o :  0  ( 0.00%)
+p :  1  ( 6.25%)
+q :  0  ( 0.00%)
+r :  1  ( 6.25%)
+s :  0  ( 0.00%)
+t :  0  ( 0.00%)
+u :  1  ( 6.25%)
+v :  2  (12.50%)
+w :  0  ( 0.00%)
+x :  0  ( 0.00%)
+y :  2  (12.50%)
+z :  1  ( 6.25%)
+
+[ Caesar Key Guess By Frequency ]
+most frequent cipher letter : a
+assumption : 'a' was originally 'e'
+guessed key : 22
+guessed plaintext : dzylrtncjezeclnv
